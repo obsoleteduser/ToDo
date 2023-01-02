@@ -1,0 +1,14 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkblue;
+    background: url(/src/assets/img/1567665.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

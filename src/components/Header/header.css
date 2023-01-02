@@ -1,0 +1,19 @@
+@font-face {
+    font-family: bubble;
+    src: url(/src/assets/fonts/SeymourOne-Regular.ttf);
+  }
+  
+
+.header{
+    width: 100%;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    font-family: bubble;
+}

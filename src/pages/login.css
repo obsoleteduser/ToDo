@@ -1,0 +1,114 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: black;
+    padding: 2rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.login h1{
+    color: white;
+}
+
+.login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.login form input{
+    outline: unset;
+    border: unset;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+
+.login form button{
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    outline: unset;
+    border: unset;
+}
+
+.login span{
+    color: white;
+}
+
+.register-link{
+    text-decoration: none;
+    padding: 1rem;
+    background-color: gold;
+    color: black !important;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: black;
+    padding: 2rem;
+    color: white;
+    border-radius: 10px;
+}
+
+.register form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.register form input{
+    outline: unset;
+    border: unset;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+
+.register form button{
+    padding: 1rem;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: red;
+    border-radius: 10px;
+    border: unset;
+    color: white;
+    outline: unset;
+}
+
+
+.login-link{
+    text-decoration: none;
+    padding: 1rem;
+    background-color: gold;
+   
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
